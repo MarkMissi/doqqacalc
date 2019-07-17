@@ -1,7 +1,15 @@
 var filePath = "../res/Damage Values/Damage_T.Gohan.csv";
 
-var fs = require('fs');
+function loadFile(path) {
+  var result = null;
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.open("GET", path, false);
+  xmlhttp.send();
+  if (xmlhttp.status==200) {
+    result = xmlhttp.responseText;
+  }
+  return result;
+}
 
-var fileText = fs.readFileSync(filePath);
 
-console.log(fileText);
+console.log(loadFile(filePath));
