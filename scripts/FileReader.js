@@ -1,4 +1,3 @@
-const papa = require('papaparse');
 var filePath = "https://markmissi.github.io/doqqacalc/res/damage/Damage_T.Gohan.csv";
 
 function loadFile(path) {
@@ -20,7 +19,7 @@ window.onload = function() {
 	var damageValuesCSV = loadFile(filePath);
 
 	// Parse the result into an array
-	var parsedResult = papa.parse(
+	var parsedResult = parse(
 		damageValuesCSV, 
 		{
 			header: true,
