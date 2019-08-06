@@ -1,3 +1,4 @@
+const papa = require('papaparse');
 var filePath = "https://markmissi.github.io/doqqacalc/res/damage/Damage_T.Gohan.csv";
 
 function loadFile(path) {
@@ -11,6 +12,23 @@ function loadFile(path) {
   return result;
 };
 
+
+// Once the page loads
 window.onload = function() {
-	console.log(loadFile(filePath));
+
+	// Load the damage values in CSV format
+	var damageValuesCSV = loadFile(filePath);
+
+	// Parse the result into an array
+	var parsedResult = papa.parse(
+		damageValuesCSV, 
+		{
+			header: true,
+			skipEmptyLines: true
+		});
+
+	var damageData = parsedResult['data'];
+
+	console.log(damageData[0]);
+
 };
