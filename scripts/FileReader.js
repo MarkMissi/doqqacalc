@@ -10,7 +10,8 @@ function loadFile(path) {
   }
   return result;
 };
-document.addEventListener("load", function(filePath) {
+
+window.onload(function(filePath) {
 
 	console.log("test");
 	//console.log(loadFile(filePath));
