@@ -13,7 +13,6 @@ function loadFile(path) {
 
 window.onload = function(filePath) {
 
-	console.log("test");
-	//console.log(loadFile(filePath));
+	console.log(loadFile(filePath));
 
 };
