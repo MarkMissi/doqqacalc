@@ -12,4 +12,7 @@ function loadFile(path) {
 }
 
 
-console.log(loadFile(filePath));
+document.onLoad(function()
+{
+	console.log(loadFile(filePath));
+});
