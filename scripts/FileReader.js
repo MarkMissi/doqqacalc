@@ -19,7 +19,7 @@ window.onload = function() {
 	var damageValuesCSV = loadFile(filePath);
 
 	// Parse the result into an array
-	var parsedResult = parse(
+	var parsedResult = Papa.parse(
 		damageValuesCSV, 
 		{
 			header: true,
