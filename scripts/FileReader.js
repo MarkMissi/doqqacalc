@@ -9,9 +9,10 @@ function loadFile(path) {
     result = xmlhttp.responseText;
   }
   return result;
-}
-document.addEventListener("load", function() {
+};
+document.addEventListener("load", function(filePath) {
 
-	console.log(loadFile(filePath));
+	console.log("test");
+	//console.log(loadFile(filePath));
 
 });
