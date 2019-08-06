@@ -1,4 +1,4 @@
-var filePath = ".../res/damage/Damage_T.Gohan.csv";
+var filePath = "https://markmissi.github.io/doqqacalc/res/damage/Damage_T.Gohan.csv";
 
 function loadFile(path) {
   var result = null;
