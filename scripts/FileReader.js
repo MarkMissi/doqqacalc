@@ -1,4 +1,4 @@
-var filePath = "../res/damage/Damage_T.Gohan.csv";
+var filePath = ".../res/damage/Damage_T.Gohan.csv";
 
 function loadFile(path) {
   var result = null;
@@ -11,8 +11,6 @@ function loadFile(path) {
   return result;
 };
 
-window.onload = function() {
-
+window.onload = function(filePath) {
 	console.log(loadFile(filePath));
-
-};
+});
