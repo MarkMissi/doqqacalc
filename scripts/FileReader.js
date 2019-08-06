@@ -13,4 +13,4 @@ function loadFile(path) {
 
 window.onload = function(filePath) {
 	console.log(loadFile(filePath));
-});
+};
