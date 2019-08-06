@@ -11,7 +11,7 @@ function loadFile(path) {
   return result;
 };
 
-window.onload = function(filePath) {
+window.onload = function() {
 
 	console.log(loadFile(filePath));
 
