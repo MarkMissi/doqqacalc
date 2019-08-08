@@ -23,7 +23,8 @@ window.onload = function() {
 		damageValuesCSV, 
 		{
 			header: true,
-			skipEmptyLines: true
+			skipEmptyLines: true,
+			preview: 3
 		});
 
 	var damageData = parsedResult['data'];
