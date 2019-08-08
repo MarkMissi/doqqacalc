@@ -6,7 +6,14 @@ function loadFile(path) {
   xmlhttp.open("GET", path, true);
   xmlhttp.send();
   if (xmlhttp.status==200) {
-    result = xmlhttp.responseText;
+    result = Papa.parse(xmlhttp.responseText, {
+			header: true,
+			skipEmptyLines: true,
+			preview: 3,
+			complete: function(results, file) {
+				console.log("parsing complete: " + results);
+			}
+		});
   }
   return result;
 };
@@ -19,14 +26,14 @@ window.onload = function() {
 	var damageValuesCSV = loadFile(filePath);
 
 	// Parse the result into an array
-	var parsedResult = Papa.parse(
-		damageValuesCSV, 
-		{
-			header: true,
-			skipEmptyLines: true,
-			preview: 3,
-			complete: function(results, file) {
-				console.log("parsing complete: " + results);
-			}
-		});
+	// var parsedResult = Papa.parse(
+	// 	damageValuesCSV, 
+	// 	{
+	// 		header: true,
+	// 		skipEmptyLines: true,
+	// 		preview: 3,
+	// 		complete: function(results, file) {
+	// 			console.log("parsing complete: " + results);
+	// 		}
+	// 	});
 };
