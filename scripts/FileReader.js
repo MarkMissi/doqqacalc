@@ -24,11 +24,9 @@ window.onload = function() {
 		{
 			header: true,
 			skipEmptyLines: true,
-			preview: 3
+			preview: 3,
+			complete: function(results, file) {
+				console.log("parsing complete: " + results);
+			}
 		});
-
-	var damageData = parsedResult['data'];
-
-	console.log(damageData[0]);
-
 };
