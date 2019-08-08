@@ -23,9 +23,9 @@ function loadFile(path) {
 window.onload = function() {
 
 	// Load the damage values in CSV format
-	loadFile(filePath);
+	x = loadFile(filePath);
 
-	console.log("In onload function");
+	console.log("In onload function " + x);
 
 	// Parse the result into an array
 	// var parsedResult = Papa.parse(
