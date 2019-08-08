@@ -11,7 +11,7 @@ function loadFile(path) {
 			skipEmptyLines: true,
 			preview: 3,
 			complete: function(results, file) {
-				console.log("parsing complete: " + results);
+				console.log("Parsing complete");
 			}
 		});
   }
@@ -23,7 +23,9 @@ function loadFile(path) {
 window.onload = function() {
 
 	// Load the damage values in CSV format
-	var damageValuesCSV = loadFile(filePath);
+	loadFile(filePath);
+
+	console.log("In onload function");
 
 	// Parse the result into an array
 	// var parsedResult = Papa.parse(
