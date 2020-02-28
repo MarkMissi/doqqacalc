@@ -548,7 +548,7 @@ function calculateComboDamage(combo) {
         // Increment the hit number by the prorationhits of the move
         scalingIndex += (currentMoveData["scalingIncrement"] === null) ? currentMoveData["scalingIncrement"] : 1;
 
-    });
+    }.bind(this));
 
     return totalDamage;
 
