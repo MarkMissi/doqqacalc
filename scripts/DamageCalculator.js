@@ -473,6 +473,8 @@ function calculateComboDamage(combo) {
     // Split the moves in the combo string based on the delimiter
     let movesInCombo = combo.split('-');
 
+    return movesInCombo[0];
+
     let isSparking;
     // Before calculating, lets see if we're in sparking before starting the combo
     // If the first move in the combo is sparking
