@@ -510,7 +510,7 @@ function calculateComboDamage(combo) {
     // Prepare variables for the loop
     let currentMoveData;
     let totalDamage = 0;
-    let scalingIndex = 0;
+    this.scalingIndex = 0;
     let isLvl1 = false;
 
     let damageToAdd;
@@ -533,7 +533,7 @@ function calculateComboDamage(combo) {
             else {
                 // If we activated sparking
                 // Increment scaling and continue
-                scalingIndex += (currentMoveData["scalingIncrement"] === null) ? currentMoveData["scalingIncrement"] : 1;
+                this.scalingIndex += (currentMoveData["scalingIncrement"] === null) ? currentMoveData["scalingIncrement"] : 1;
                 // And move onto the next move
                 return;
             }
@@ -542,11 +542,12 @@ function calculateComboDamage(combo) {
         // Check if the move is a super
         isLvl1 = move.startsWith("LVL1");
         // Apply scaling
-        damageToAdd = getDamageAfterScaling(scalingToUse, currentMoveData, scalingIndex, isLvl1, isSparking);
+        console.log("scalingIndex: " + this.scalingIndex);
+        damageToAdd = getDamageAfterScaling(scalingToUse, currentMoveData, this.scalingIndex, isLvl1, isSparking);
         // Add the damage to the total
         totalDamage += damageToAdd;
         // Increment the hit number by the prorationhits of the move
-        scalingIndex += (currentMoveData["scalingIncrement"] === null) ? currentMoveData["scalingIncrement"] : 1;
+        this.scalingIndex += (currentMoveData["scalingIncrement"] === null) ? currentMoveData["scalingIncrement"] : 1;
 
     }.bind(this));
 
