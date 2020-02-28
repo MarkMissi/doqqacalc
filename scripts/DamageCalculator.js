@@ -546,7 +546,7 @@ function calculateComboDamage(combo) {
         // Add the damage to the total
         totalDamage += damageToAdd;
         // Increment the hit number by the prorationhits of the move
-        scalingIndex += currentMoveData.getScalingIncrement();
+        scalingIndex += currentMoveData["scalingIncrement"];
 
     });
 
