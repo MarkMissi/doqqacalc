@@ -2,8 +2,7 @@ let type1Scaling = [ 100, 90, 80, 70, 60, 50, 40, 30, 30, 30, 30, 25, 25, 25, 20
 let type2Scaling = [ 100, 80, 70, 60, 50, 40, 30, 20, 20, 20, 20, 15, 15, 15, 10 ];
 let type3Scaling = [ 100, 70, 60, 50, 40, 30, 20, 10 ];
 
-let moveList = [
-    {
+let moveList = {
         "5L": {
             "damage": 400,
             "type": 2,
@@ -396,7 +395,7 @@ let moveList = [
             "minimumDamage" : 600,
             "scalingIncrement" : null,
         },
-    }];
+    };
 
 
 function getDamageAfterScaling(scalingTable, moveData, scalingIndex, isLvl1, isSparking) {
