@@ -533,7 +533,7 @@ function calculateComboDamage(combo) {
             else {
                 // If we activated sparking
                 // Increment scaling and continue
-                scalingIndex += (moveData["scalingIncrement"] === null) ? moveData["scalingIncrement"] : 1;
+                scalingIndex += (currentMoveData["scalingIncrement"] === null) ? currentMoveData["scalingIncrement"] : 1;
                 // And move onto the next move
                 return;
             }
@@ -546,7 +546,7 @@ function calculateComboDamage(combo) {
         // Add the damage to the total
         totalDamage += damageToAdd;
         // Increment the hit number by the prorationhits of the move
-        scalingIndex += (moveData["scalingIncrement"] === null) ? moveData["scalingIncrement"] : 1;
+        scalingIndex += (currentMoveData["scalingIncrement"] === null) ? currentMoveData["scalingIncrement"] : 1;
 
     });
 
