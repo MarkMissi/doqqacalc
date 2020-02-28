@@ -8,210 +8,210 @@ let moveList = {
             "type": 2,
             "numberOfHits": null,
             "minimumDamage": null,
-            "scalingIncrement": 1,
+            "scalingIncrement": null,
         },
         "5LL": {
             "damage": 700,
             "type": 1,
             "numberOfHits": null,
             "minimumDamage": null,
-            "scalingIncrement": 1,
+            "scalingIncrement": null,
         },
         "5LLL": {
             "damage": 1000,
             "type": 1,
             "numberOfHits": null,
             "minimumDamage": null,
-            "scalingIncrement": 1,
+            "scalingIncrement": null,
         },
         "2L": {
             "damage": 400,
             "type": 2,
             "numberOfHits": null,
             "minimumDamage": null,
-            "scalingIncrement": 1,
+            "scalingIncrement": null,
         },
         "5M": {
             "damage": 700,
             "type": 1,
             "numberOfHits": null,
             "minimumDamage": null,
-            "scalingIncrement": 1,
+            "scalingIncrement": null,
         },
         "2M" : {
             "damage" : 700,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "6M" : {
             "damage" : 850,
             "type" : 3,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "5H" : {
             "damage" : 850,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "2H" : {
             "damage" : 850,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "2S(1)" : {
             "damage" : 600,
             "type" : 2,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "2S(2)" : {
             "damage" : 700,
             "type" : 2,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "JL" : {
             "damage" : 400,
             "type" : 2,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "JM" : {
             "damage" : 700,
             "type" : 2,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "JH" : {
             "damage" : 850,
             "type" : 2,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "J2H" : {
             "damage" : 850,
             "type" : 2,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "JS" : {
             "damage" : 400,
             "type" : 2,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "J2S(1)" : {
             "damage" : 600,
             "type" : 2,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "J2S(2)" : {
             "damage" : 700,
             "type" : 2,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "236L(1)" : {
             "damage" : 500,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "236L(2)" : {
             "damage" : 700,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "236M(1)" : {
             "damage" : 500,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "236M(2)" : {
             "damage" : 700,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "236H(1)" : {
             "damage" : 300,
             "type" : 2,
             "numberOfHits" : 4,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "236H(2)" : {
             "damage" : 700,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "214L" : {
             "damage" : 1000,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "214M" : {
             "damage" : 1350,
             "type" : 3,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "214H(1)" : {
             "damage" : 1000,
             "type" : 3,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "214H(2)" : {
             "damage" : 200,
             "type" : 3,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "J236L" : {
             "damage" : 350,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "J236M(1)" : {
             "damage" : 80,
             "type" : 1,
             "numberOfHits" : 7,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "J236M(2)" : {
             "damage" : 600,
@@ -225,7 +225,7 @@ let moveList = {
             "type" : 1,
             "numberOfHits" : 13,
             "minimumDamage" : null,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "J236H(2)" : {
             "damage" : 900,
@@ -239,21 +239,21 @@ let moveList = {
             "type" : 1,
             "numberOfHits" : 10,
             "minimumDamage" : 910,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "LVL3(TOHAN)" : {
             "damage" : 230,
             "type" : 1,
             "numberOfHits" : 20,
             "minimumDamage" : 1740,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "LVL5(TOHAN)" : {
             "damage" : 110,
             "type" : 1,
             "numberOfHits" : 20,
             "minimumDamage" : 1100,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "DR(START)" : {
             "damage" : 1100,
@@ -302,14 +302,14 @@ let moveList = {
             "type" : 2,
             "numberOfHits" : null,
             "minimumDamage" : 783,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "LVL3(BASEKU)" : {
             "damage" : 5605,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : 1985,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "SSJGOKU" : {
             "damage" : 200,
@@ -323,21 +323,21 @@ let moveList = {
             "type" : 2,
             "numberOfHits" : 10,
             "minimumDamage" : 750,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "LVL1(SSJGOKU)(DIAGONAL)" : {
             "damage" : 270,
             "type" : 2,
             "numberOfHits" : 10,
             "minimumDamage" : 810,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "LVL3(SSJGOKU)" : {
             "damage" : 4208,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : 1759,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "TIEN" : {
             "damage" : 800,
@@ -351,49 +351,49 @@ let moveList = {
             "type" : 2,
             "numberOfHits" : null,
             "minimumDamage" : 1032,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "LVL1+1(TIEN)" : {
             "damage" : 3058,
             "type" : 2,
             "numberOfHits" : null,
             "minimumDamage" : 1426,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "LVL3(TIEN)" : {
             "damage" : 3600,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : 1872,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "LVL3+1(TIEN)" : {
             "damage" : 900,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : 600,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "LVL3+2(TIEN)" : {
             "damage" : 800,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : 600,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "LVL3+3(TIEN)" : {
             "damage" : 700,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : 600,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
         "LVL3+4(TIEN)" : {
             "damage" : 600,
             "type" : 1,
             "numberOfHits" : null,
             "minimumDamage" : 600,
-            "scalingIncrement" : 1,
+            "scalingIncrement" : null,
         },
     };
 
@@ -430,7 +430,7 @@ function getDamageAfterScaling(scalingTable, moveData, scalingIndex, isLvl1, isS
     damageToReturn =  moveDamage * scalingToUse / 100;
 
     // If the move hits multiple times
-    let numberOfHits = moveData["numberOfHits"];
+    let numberOfHits = (moveData["numberOfHits"] === null) ? moveData["numberOfHits"] : 1;
     if (numberOfHits > 1) {
         // if we're not at max scaling
         if (scalingIndex < scalingTable.length - 1) {
@@ -452,7 +452,7 @@ function getDamageAfterScaling(scalingTable, moveData, scalingIndex, isLvl1, isS
     }
 
     // Now in case the move has minimum damage
-    let moveMinDmg = moveData["minimumDamage"];
+    let moveMinDmg = (moveData["minimumDamage"] === null) ? moveData["minimumDamage"] : -1;
     // If our calculated damage as less than the move's minimum damage
     if (damageToReturn < moveMinDmg) {
         // Set the damage to return to be the minimum damage allowed by the move
@@ -533,7 +533,7 @@ function calculateComboDamage(combo) {
             else {
                 // If we activated sparking
                 // Increment scaling and continue
-                scalingIndex += currentMoveData["scalingIncrement"];
+                scalingIndex += (moveData["scalingIncrement"] === null) ? moveData["scalingIncrement"] : 1;
                 // And move onto the next move
                 return;
             }
@@ -546,7 +546,7 @@ function calculateComboDamage(combo) {
         // Add the damage to the total
         totalDamage += damageToAdd;
         // Increment the hit number by the prorationhits of the move
-        scalingIndex += currentMoveData["scalingIncrement"];
+        scalingIndex += (moveData["scalingIncrement"] === null) ? moveData["scalingIncrement"] : 1;
 
     });
 
