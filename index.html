@@ -17,7 +17,7 @@
 
         <textarea id="combo"></textarea>
         <button onClick="
-		    let x = document.getElementById('combo').getAttribute('text')
+		    let x = document.getElementById('combo').value;
 		    let y = calculateComboDamage(x);
 		    document.getElementById('dev').value = y;
         ">Test</button>
