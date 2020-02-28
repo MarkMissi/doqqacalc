@@ -18,7 +18,8 @@
         <textarea id="combo"></textarea>
         <button onClick="
 		    let x = document.getElementById('combo').getAttribute('text')
-		    return calculateComboDamage(x);
+		    let y = calculateComboDamage(x);
+		    document.getElementById('dev').value = y;
         ">Test</button>
 		<div id="dev" hidden="true">This area is for developers to print stuff I guess.</div>
 	</body>
