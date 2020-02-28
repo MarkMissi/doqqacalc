@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html> 
+<html>
 
 	<head>
 		<link rel="stylesheet" type="text/css" href="./styles/index.css">
 		<script src="./lib/PapaParse-master/papaparse.min.js"></script>
 		<script src="./scripts/FileReader.js"></script>
+		<script src="./scripts/DamageCalculator.js"></script>
 	</head>
 
 	<body>
 		<table id="autocombo"><tbody><tr>
 			<td><img src="./res/images/5L.png"></td>
 			<td><img src="./res/images/5LL.png"></td>
-    		<td><img src="./res/images/5LLL.png"></td>		
+    		<td><img src="./res/images/5LLL.png"></td>
     	</tr></tbody></table>
-		<form>
-			<input type="text">
-			<input type="submit" value="Test">
-		</form>
+
+        <textarea id="combo"></textarea>
+        <button onClick="
+		    let x = document.getElementById('combo').getAttribute('text')
+		    return calculateComboDamage(x);
+        "></button>
 		<div id="dev" hidden="true">This area is for developers to print stuff I guess.</div>
 	</body>
 
