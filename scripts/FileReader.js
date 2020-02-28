@@ -14,8 +14,8 @@ function loadFile(path) {
 				console.log("Parsing complete");
 			}
 		});
+    return result;
   }
-  return result;
 };
 
 
@@ -23,7 +23,7 @@ function loadFile(path) {
 window.onload = function() {
 
 	// Load the damage values in CSV format
-	x = loadFile(filePath);
+	var x = loadFile(filePath);
 
 	console.log("In onload function " + x);
 
